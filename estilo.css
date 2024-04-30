@@ -1,0 +1,95 @@
+*{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255) ;
+    background-color: rgb(35, 3, 43);
+    border-radius: 20px;
+}
+
+.contenedor{
+ 
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    background-color: rgb(49, 2, 87);
+    border-radius: 20px;
+}
+
+.users{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2%;
+    gap: 2%;
+}
+
+.inputPlayer1{
+    border-radius: 5px;
+    width: 10%;
+    height: 30px;
+    color: aliceblue;
+    border: 2px solid rgb(77, 137, 228);
+    background-color:  rgb(74, 105, 189);
+}
+.inputPlayer1,::placeholder {
+    color: aliceblue;
+}
+.inputPlayer2{
+    border-radius: 5px;
+    width: 10%;
+    height: 30px;
+    border: 2px solid rgb(206, 197, 147);
+    background-color:  rgb(235, 204, 33);
+}
+
+.tablero {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 3px;
+    padding-left: 40%;
+    padding-right: 40%;
+    justify-content: center;
+}
+
+.a1, .a2, .a3, .b1, .b2, .b3, .c1, .c2, .c3 {
+    border: 1px solid rgb(255, 255, 255);
+    color: aliceblue;
+    background-color: rgb(29, 0, 37);
+    border-radius: 4px;
+    text-align: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botonMarcador{
+    padding-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boton{
+    border-radius: 5px;
+    width: 10%;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    border: 2px solid rgb(226, 124, 124);
+    background-color: rgb(221, 35, 29);
+}
+.boton:hover{
+    background-color: rgb(233, 211, 17);
+}
+.start:hover{
+    background-color: rgb(233, 229, 17);
+}
+.start{
+    border-radius: 5px;
+    width: 10%;
+    color: rgb(255, 255, 255);
+    height: 60px;
+    border: 2px solid rgb(109, 209, 176);
+    background-color: rgb(20, 182, 69);
+}
